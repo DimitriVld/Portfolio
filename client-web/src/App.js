@@ -1,6 +1,8 @@
 import React from 'react';
 import AppContext from './context/AppContext';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Default from "./views/layouts/DefaultLayout";
+import HomePage from "./views/pages/Home";
 
 class App extends React.Component {
 
@@ -17,9 +19,11 @@ class App extends React.Component {
 
   render() {
     return (
-        <AppContext.Provider value={this.state}>
-          <center> <h1 style={{fontSize: '35px', fontWeight: 'bold', marginTop: '20px'}}> Portfolio </h1> </center>
-        </AppContext.Provider>
+      <AppContext.Provider value={this.state}>
+        <Router>
+          <Route exact path="/" component={() => <Default page={<HomePage />} />} />
+        </Router>
+      </AppContext.Provider>
     );
   }
 
