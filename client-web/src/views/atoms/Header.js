@@ -1,9 +1,25 @@
 import React from 'react';
+import Burger from './icons/burger.svg';
 
 const Header = () => {
     return (
         <div className={'header-atom'}>
-            <p> This is a header atom </p>
+            {/* Logo */}
+            <img className='header-logo' src='./images/logo.svg' alt='logo'/>
+
+            {/* Header Buttons */}
+            <div className='header-buttons'>
+                
+                {/* Translate */}
+                <div className='translate'>
+
+                </div>
+
+                {/* Burger Menu */}
+                <div className='burger-menu'>
+                    <Burger />
+                </div>
+            </div>
         </div>
     )
 }
