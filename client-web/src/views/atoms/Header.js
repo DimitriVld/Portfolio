@@ -1,5 +1,5 @@
 import React from 'react';
-import Burger from './icons/burger.svg';
+import Icon from './icons/Index';
 
 const Header = () => {
     return (
@@ -17,7 +17,7 @@ const Header = () => {
 
                 {/* Burger Menu */}
                 <div className='burger-menu'>
-                    <Burger />
+                    <Icon name="Burger" width={30} fill={"#000"}  className='burger'/>
                 </div>
             </div>
         </div>
