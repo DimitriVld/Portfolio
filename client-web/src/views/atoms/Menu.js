@@ -1,11 +1,23 @@
 import React from 'react';
+import AppContext from "../../context/AppContext";
 
-const Menu = () => {
-    return (
-        <div className={'menu-atom'}>
-            <p> This is a Menu atom </p>
-        </div>
-    )
+class Menu extends React.Component {
+    static contextType = AppContext;
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            showMenu: true,
+        }
+    }
+    
+    render(){
+        return (
+            <div className={`menu-atom ${this.context.showMenu} ${this.state.showMenu ? '' : 'display-none-dft'}`}>
+                <p> This is a Menu atom </p>
+            </div>
+        )
+    }
 }
 
 export default Menu;
