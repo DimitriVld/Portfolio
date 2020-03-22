@@ -1,6 +1,5 @@
 import React from 'react';
 import AppContext from "../../context/AppContext";
-import { TimelineMax } from "gsap/all";
 import Icon from './icons/Index';
 
 class Header extends React.Component{
