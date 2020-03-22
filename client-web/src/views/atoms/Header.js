@@ -16,15 +16,15 @@ class Header extends React.Component{
                 {/* Logo */}
                 <img className="header-logo" src="./images/logo.svg" alt="logo" />
 
-                {/* Header Buttons */}
+                {/* Header buttons */}
                 <div className="header-buttons">
-                {/* Translate */}
-                <div className="translate"></div>
+                    {/* Translate */}
+                    <div className="translate"></div>
 
-                {/* Burger Menu */}
-                <div className="burger-menu" onClick={() => this.toggleMenu()}>
-                    <Icon name="Burger" width={30} fill={"#000"} className="burger" />
-                </div>
+                    {/* Burger menu */}
+                    <div className="burger-menu" onClick={() => this.toggleMenu()}>
+                        <Icon name="Burger" width={30} fill={"#000"} className="burger" />
+                    </div>
                 </div>
             </div>
         );
