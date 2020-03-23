@@ -1,12 +1,19 @@
 .header-atom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
 
     // Logo
     .header-logo{
-
+        height: 38px;
     }
 
     // Header buttons
     .header-buttons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
         // Translate
         .translate{
@@ -15,9 +22,12 @@
 
         // Burger menu
         .burger-menu{
-
+            display: flex;
+            margin-left: 30px;
+            padding: 5px;
+            background-color: $blue-2;
             .burger{
-                
+
             }
         }
     }

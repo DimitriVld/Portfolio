@@ -8,6 +8,7 @@ class Header extends React.Component{
     toggleMenu = () => {
         this.context.showMenu = !this.context.showMenu;
         console.log(this.context.showMenu)
+        document.querySelector('.burger-icon').classList.toggle('active');
     }
 
     render() {
@@ -19,11 +20,13 @@ class Header extends React.Component{
                 {/* Header buttons */}
                 <div className="header-buttons">
                     {/* Translate */}
-                    <div className="translate"></div>
+                    <div className="translate">
+                        <p>text</p>
+                    </div>
 
                     {/* Burger menu */}
-                    <div className="burger-menu" onClick={() => this.toggleMenu()}>
-                        <Icon name="Burger" width={30} fill={"#000"} className="burger" />
+                    <div className="burger-menu border-rounded-dft" onClick={() => this.toggleMenu()}>
+                        <Icon name="Burger" width={30} stroke={"#fff"} />
                     </div>
                 </div>
             </div>

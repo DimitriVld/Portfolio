@@ -5,6 +5,10 @@
     font-weight: bold;
 }
 
+.border-rounded-dft{
+    border-radius: 50%;
+}
+
 // C
 .container-dft{
     @extend %container;
