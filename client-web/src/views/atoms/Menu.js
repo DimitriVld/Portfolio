@@ -13,7 +13,7 @@ class Menu extends React.Component {
     
     render(){
         return (
-            <div className={`menu-atom ${this.context.showMenu} ${this.state.showMenu ? '' : 'display-none-dft'}`}>
+            <div className={'menu-atom display-none-dft'}>
                 <p> This is a Menu atom </p>
             </div>
         )

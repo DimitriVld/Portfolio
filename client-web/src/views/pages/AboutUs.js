@@ -1,9 +1,14 @@
 import React from 'react';
+import WelcomeSection from "../molecules/HomePage/WelcomeSection";
+import CultureSection from "../molecules/AboutPage/CultureSection";
+import ContactSection from "../molecules/AboutPage/ContactSection";
 
 const AboutUs = () => {
     return (
         <div className={'about-us-page'}>
-            <p> This is a AboutUs page </p>
+            <WelcomeSection />
+            <CultureSection />
+            <ContactSection />
         </div>
     )
 }

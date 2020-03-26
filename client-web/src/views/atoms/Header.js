@@ -1,5 +1,4 @@
 import React from 'react';
-import AppContext from "../../context/AppContext";
 import Icon from './icons/Index';
 
 class Header extends React.Component{
