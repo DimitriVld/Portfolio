@@ -1,24 +1,33 @@
 // First title
 %title-1{
-   display: initial;
+    width: 50%;
+    color: $black-4;
+    font-size: 48px;
+    text-transform: uppercase;
 }
 
 // Second title
 %title-2{
-    display: initial;
+    @extend %title-1;
+    font-size: 100px;
+    font-weight: bold;
 }
 
 // Third title
 %title-3{
-    display: initial;
+    @extend %title-1;
+    font-size: 64px;
+    font-weight: bold;
 }
 
 // Fourth title
 %title-4{
-    display: initial;
+    @extend %title-1;
+    font-size: 40px;
 }
 
 // Last title
 %title-5{
+    @extend %title-1;
     display: initial;
 }

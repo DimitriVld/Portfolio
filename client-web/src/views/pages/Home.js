@@ -6,7 +6,10 @@ import WorksSection from "../molecules/HomePage/WorksSection";
 const Home = () => {
     return(
         <div className={'home-page'}>
-            <WelcomeSection />
+            <WelcomeSection
+                title='Ad agency'
+                subTitle='Were create & build digital solution'
+            />
             <UsSection />
             <WorksSection />
         </div>

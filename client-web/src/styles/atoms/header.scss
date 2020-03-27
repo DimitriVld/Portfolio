@@ -1,8 +1,11 @@
 .header-atom{
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
     padding: 10px 30px;
+    z-index: 1;
 
     // Logo
     .header-logo{

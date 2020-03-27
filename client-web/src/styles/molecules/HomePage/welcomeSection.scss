@@ -1,0 +1,31 @@
+.welcome-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &.home{
+        background-color: rgba($blue-2,.65);
+    }
+
+    &.services{
+        background-color: $white;
+    }
+
+    .bg-logo{
+        position: absolute;
+        right: 0;
+        top: -5px;
+    }
+
+    h1{
+        @extend %title-1;
+        margin-bottom: 20px;
+        color: $white;
+    }
+
+    h2{
+        @extend %title-2;
+        color: $white;
+    }
+}

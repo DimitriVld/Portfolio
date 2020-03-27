@@ -1,9 +1,13 @@
 import React from 'react';
 
-const WelcomeSection = () => {
+const WelcomeSection = (props) => {
     return (
-        <div className={'welcome-section'}>
-            <p> This is a Welcome section </p>
+        <div className={`welcome-section section-dft ${props.services ? 'services' : 'home'}`}>
+            <div className="container-dft">
+                <img className="bg-logo" src="./images/logo_x4.svg" alt="logo" />
+                <h1>{props.title}</h1>
+                <h2>{props.subTitle}</h2>
+            </div>
         </div>
     )
 }
