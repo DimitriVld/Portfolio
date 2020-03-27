@@ -8,7 +8,7 @@ const Home = () => {
         <div className={'home-page'}>
             <WelcomeSection
                 title='Ad agency'
-                subTitle='Were create & build digital solution'
+                subTitle='We create & build digital solution'
             />
             <UsSection />
             <WorksSection />

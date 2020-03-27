@@ -28,4 +28,18 @@
         @extend %title-2;
         color: $white;
     }
+
+    .scroll{
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        padding-top: 8px;
+        border-top: solid 1px $white;
+        color: $white;
+        font-size: 12px;
+        text-transform: uppercase;
+        transform: rotate(-90deg);
+    }
 }

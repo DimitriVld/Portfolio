@@ -7,6 +7,7 @@ const WelcomeSection = (props) => {
                 <img className="bg-logo" src="./images/logo_x4.svg" alt="logo" />
                 <h1>{props.title}</h1>
                 <h2>{props.subTitle}</h2>
+                <p className="scroll">Scroll</p>
             </div>
         </div>
     )
