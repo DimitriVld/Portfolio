@@ -20,12 +20,14 @@
 
     h1{
         @extend %title-1;
+        width: 50%;
         margin-bottom: 20px;
         color: $white;
     }
 
     h2{
         @extend %title-2;
+        width: 50%;
         color: $white;
     }
 

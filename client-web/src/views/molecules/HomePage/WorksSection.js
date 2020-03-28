@@ -17,7 +17,8 @@ class WorksSection extends React.Component {
         });
         
         return (
-            <div className={'works-section'}>
+            <div className={'works-section container-dft'}>
+                <h3><hr></hr>Our last works</h3>
                 {works}
             </div>
         )

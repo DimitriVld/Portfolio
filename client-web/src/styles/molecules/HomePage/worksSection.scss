@@ -1,0 +1,14 @@
+.works-section{
+
+    h3{
+        @extend %title-3;
+        display: flex;
+        align-items: end;
+
+        hr{
+            width: 67px;
+            border: 1px solid $black-4;
+            margin: auto 23px auto 0;
+        }
+    }
+}
