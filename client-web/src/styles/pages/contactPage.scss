@@ -1,0 +1,52 @@
+.contact-page{
+    position: relative;
+    padding-top: 170px;
+
+    .bg-logo{
+        position: absolute;
+        right: -75px;
+        bottom: -40px;
+        z-index: -1;
+    }
+
+    h1{
+        @extend %title-1;
+    }
+
+    .founders{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+
+        .founder{
+            padding: 0 76px;
+
+            &:nth-child(1){
+                border-right: solid 1px $black-4;
+            }
+
+            .fullname{
+                font-weight: bold;
+                font-size: 23px;
+                color: $blue-2;
+                white-space:nowrap;
+            }
+
+            .description{
+                margin-top: 10px;
+                white-space:nowrap;
+            }
+
+            .socials{
+                display: flex;
+                margin-top: 10px;
+
+                a{
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
