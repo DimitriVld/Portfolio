@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Icon from './icons/Index';
 
 class Header extends React.Component{
@@ -12,7 +13,9 @@ class Header extends React.Component{
         return (
             <div className={"header-atom"}>
                 {/* Logo */}
-                <img className="header-logo" src="./images/logo.svg" alt="logo" />
+                <Link to={'/'}>
+                    <img className="header-logo" src="./images/logo.svg" alt="logo" />
+                </Link>
 
                 {/* Header buttons */}
                 <div className="header-buttons">

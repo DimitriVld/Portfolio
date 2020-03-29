@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import staticProjects from "../../constants/staticProjects";
 
 class WorksSection extends React.Component {
