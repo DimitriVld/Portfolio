@@ -3,7 +3,7 @@
     h3{
         @extend %title-3;
         display: flex;
-        align-items: end;
+        align-items: flex-end;
 
         hr{
             width: 67px;
@@ -38,7 +38,7 @@
             h4{
                 @extend %title-4;
                 display: flex;
-                align-items: end;
+                align-items: flex-end;
 
                 hr{
                     width: 30px;

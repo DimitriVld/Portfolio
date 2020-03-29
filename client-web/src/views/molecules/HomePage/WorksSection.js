@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Link, Route} from "react-router-dom";
+import {Link} from "react-router-dom";
 import staticProjects from "../../constants/staticProjects";
 
 class WorksSection extends React.Component {
@@ -16,14 +16,14 @@ class WorksSection extends React.Component {
                 <div className={`work ${work.inverse ? 'inverse' : ''}`} key={index}>
                     <div className="bg"></div>
                     <div className="fullname">
-                        <Link to={`/work/${work.id}`}>
+                        <Link to={`/work-${work.id}`}>
                             <h4><hr></hr>{work.title}</h4>
                         </Link>
                         <img className="img-work" src={work.img} alt="img work" />
                     </div>
                     <div className="descriptions">
                         <p>{work.content}</p>
-                        <a href={work.link}>Discover</a>
+                        <Link to={`/work-${work.id}`}>Discover</Link>
                     </div>
                 </div>
             )
