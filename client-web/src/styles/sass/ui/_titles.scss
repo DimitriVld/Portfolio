@@ -2,28 +2,28 @@
 %title-1{
     display: block;
     color: $black-4;
-    font-size: 48px;
+    font-size: 38px;
     text-transform: uppercase;
 }
 
 // Second title
 %title-2{
     @extend %title-1;
-    font-size: 100px;
+    font-size: 90px;
     font-weight: bold;
 }
 
 // Third title
 %title-3{
     @extend %title-1;
-    font-size: 64px;
+    font-size: 54px;
     font-weight: bold;
 }
 
 // Fourth title
 %title-4{
     @extend %title-1;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 // Last title

@@ -31,7 +31,7 @@ class App extends React.Component {
           <Route exact path="/works" component={() => <Default page={<WorksPage />} />} />
           <Route exact path="/about-us" component={() => <Default page={<AboutUsPage />} />} />
           <Route exact path="/contact" component={() => <Default page={<ContactPage />} />} />
-          <Route exact path="/signle-work" component={() => <Default page={<SingleWorkPage />} />} />
+          <Route exact path="/work/:id" component={() => <Default page={<SingleWorkPage />} />} />
         </Router>
       </AppContext.Provider>
     );
