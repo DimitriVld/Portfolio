@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Contact = () => {
+const ContactPage = () => {
     return (
-        <div className={'contact-page container-dft height-100vh-dft'}>
+        <div className={'contact-page container-dft height-100vh-dft padding-t-b-dft'}>
             <img className="bg-logo" src="./images/logo_x4_2.svg" alt="logo" />
 
             {/* Title page */}
@@ -37,4 +37,4 @@ const Contact = () => {
     )
 }
 
-export default Contact;
+export default ContactPage;

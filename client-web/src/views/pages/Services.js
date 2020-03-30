@@ -2,7 +2,7 @@ import React from 'react';
 import ServicesSection from '../molecules/ServicesPage/ServicesSection';
 import JobsSection from "../molecules/ServicesPage/JobsSection";
 
-const Services = () => {
+const ServicesPage = () => {
     return(
         <div className={'services-page'}>
             <ServicesSection />
@@ -11,4 +11,4 @@ const Services = () => {
     )
 }
 
-export default Services;
+export default ServicesPage;

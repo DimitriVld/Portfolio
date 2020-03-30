@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const UsSection = () => {
     return (
@@ -14,7 +15,10 @@ const UsSection = () => {
                 </p>
             </div>
             <div className="right-block">
-                <button>Contact us</button>
+                <Link to={'/contact'}>
+                    Contact us 
+                    <img className="icon-arrow border-rounded-dft" src="./images/icon_arrow.svg" alt="Arrow" />
+                </Link>
             </div>
         </div>
     );

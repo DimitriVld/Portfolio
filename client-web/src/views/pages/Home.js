@@ -3,7 +3,7 @@ import WelcomeSection from '../molecules/HomePage/WelcomeSection';
 import UsSection from "../molecules/HomePage/UsSection";
 import WorksSection from "../molecules/HomePage/WorksSection";
 
-const Home = () => {
+const HomePage = () => {
     return(
         <div className={'home-page'}>
             <WelcomeSection
@@ -16,4 +16,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default HomePage;

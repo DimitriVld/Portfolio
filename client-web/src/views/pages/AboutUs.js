@@ -3,7 +3,7 @@ import WelcomeSection from "../molecules/HomePage/WelcomeSection";
 import CultureSection from "../molecules/AboutPage/CultureSection";
 import ContactSection from "../molecules/AboutPage/ContactSection";
 
-class AboutUs extends React.Component{
+class AboutUsPage extends React.Component{
 
     render(){
         return (
@@ -16,4 +16,4 @@ class AboutUs extends React.Component{
     }
 }
 
-export default AboutUs;
+export default AboutUsPage;

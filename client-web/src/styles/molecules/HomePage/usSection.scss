@@ -29,5 +29,20 @@
 
     .right-block{
         flex: 1;
+
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            font-size: 20px;
+
+            .icon-arrow{
+                display: flex;
+                margin-left: 30px;
+                padding: 10px 15px;
+                background-color: $blue-2;
+            }
+        }
     }
 }

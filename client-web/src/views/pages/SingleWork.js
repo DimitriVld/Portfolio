@@ -1,7 +1,7 @@
 import React from 'react';
 import staticProjects from "../constants/staticProjects";
 
-class SingleWork extends React.Component {
+class SingleWorkPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -20,4 +20,4 @@ class SingleWork extends React.Component {
     }
 }
 
-export default SingleWork;
+export default SingleWorkPage;
