@@ -1,20 +1,20 @@
 import React from 'react';
-import AppContext from "../../context/AppContext";
+import { Link } from "react-router-dom";
 
 class Menu extends React.Component {
-    static contextType = AppContext;
 
     constructor(props) {
         super(props);
         this.state = {
-            showMenu: true,
         }
     }
     
     render(){
         return (
             <div className={'menu-atom display-none-dft'}>
-                <p> This is a Menu atom </p>
+                <nav className='nav'>
+                    <Link to='/'>Menu</Link>
+                </nav>
             </div>
         )
     }
