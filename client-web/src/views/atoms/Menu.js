@@ -11,7 +11,7 @@ class Menu extends React.Component {
     
     render(){
         return (
-            <div className={'menu-atom display-none-dft'}>
+            <div className={'menu-atom'}>
                 <nav className='nav'>
                     <Link to='/'>Menu</Link>
                 </nav>

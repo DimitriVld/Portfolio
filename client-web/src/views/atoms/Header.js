@@ -1,17 +1,35 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { TimelineLite } from "gsap";
 import Icon from './icons/Index';
 
 class Header extends React.Component{
+    constructor(props) {
+        super(props);
+        this.myTween = new TimelineLite({ paused: true })
+        this.state = {
+            showMenu: false,
+        }
+    }
+
+    animationMenu = () => {
+        const menuElement = document.querySelector(".menu-atom");
+        return(
+            this.myTween
+                .to(menuElement, 1, {bottom: 0})
+                .to(menuElement, 1, { width: '100%', ease: "expo"})
+        )
+    }
 
     toggleMenu = () => {
-        document.querySelector('.menu-atom').classList.toggle('display-none-dft');
+        this.state.showMenu ? this.animationMenu().reverse() : this.animationMenu().play();
+        this.setState({ showMenu: !this.state.showMenu });
         document.querySelector('.burger-icon').classList.toggle('active');
     }
 
     render() {
         return (
-            <div className={"header-atom"}>
+            <div className={"header-atom"} id='my-element'>
                 {/* Logo */}
                 <Link to={'/'}>
                     <img className="header-logo" src="./images/logo.svg" alt="logo" />
