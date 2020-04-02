@@ -1,0 +1,36 @@
+.culture-section{
+    background-color: $grey-2;
+
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3{
+            @extend %title-3;
+            flex: 1;
+        }
+
+        .cultures{
+            flex: 1;
+            overflow-x: scroll;
+            max-height: 500px;
+
+            .culture{
+                margin: 60px 0;
+
+                h4{
+                    @extend %title-3;
+                    font-size: 30px;
+                    color: $blue-2;
+                }
+
+                p{
+                    color: $black-4;
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}

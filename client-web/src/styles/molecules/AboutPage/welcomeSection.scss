@@ -1,4 +1,7 @@
 .welcome-section.about-us{
+    h1 + p{
+        @extend %title-3
+    }
 
     .scroll{
         border-top-color: $black-4;
