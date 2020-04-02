@@ -1,0 +1,30 @@
+.contact-section{
+    background-color: rgba($blue-2, .5);
+
+    .content{
+
+        h3{
+            @extend %title-1;
+            color: $white;
+        }
+
+        h4{
+            @extend %title-3;
+            margin-top: 30px;
+            width: 50%;
+            color: $white;
+        }
+
+        a{
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            color: $white;
+
+            img{
+                margin-left: 10px;
+                width: 15px;
+            }
+        }
+    }
+}
