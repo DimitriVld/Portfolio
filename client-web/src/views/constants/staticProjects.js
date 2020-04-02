@@ -1,4 +1,4 @@
-const staticTasks = () => {
+const staticProjects = () => {
 
     return [
 
@@ -50,4 +50,4 @@ const staticTasks = () => {
 
 };
 
-export default staticTasks;
+export default staticProjects;
