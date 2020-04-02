@@ -13,12 +13,12 @@ class SingleWorkPage extends React.Component {
     render(){
         const work = this.state.works.find(element => element.id === this.state.id);
         return (
-            <div className={'single-work-page container-dft'}>
+            <div className={'single-work-page container-dft padding-t-b-dft'}>
 
                 {/* div header */}
                 <div className='project-header'>
                     <p className='type'>{work.type}</p>
-                    <h2 className='name'>{work.title}</h2>
+                    <h3 className='name'>{work.title}</h3>
                 </div>
 
                 {/* content */}
@@ -38,11 +38,16 @@ class SingleWorkPage extends React.Component {
                     </div>
 
                     {/* Iframe */}
-                    <img className="img-work" src={work.img} alt="img work" />
+                    <div className='iframe'>
+                        <img className="img-work" src={work.img} alt="img work" />
+                    </div>
                 </div>
 
                 {/* Link */}
-                <a href={work.link}>Go to the website</a>
+                <a className='project-link' href={work.link}>
+                    Go to the website
+                    <img className="arrow" src='./images/arrow_forward.svg' alt="img work" />
+                </a>
             </div>
         )
     }
