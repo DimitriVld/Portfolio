@@ -14,7 +14,7 @@
         z-index: -1;
     }
 
-    .description{
+    .title{
         flex: 1 25%;
         display: flex;
         flex-direction: column;
@@ -32,27 +32,33 @@
             hr{
                 width: 30px;
                 border: 1px solid $black-4;
-                margin: auto 23px auto 0;
+                margin: auto 0 auto 23px;
             }
         }
 
+        img{
+            margin-top: 70px;
+        }
+
         p{
-            width: 50%;
-            margin: auto;
-            color: $black-4;
-            font-size: 20px;
-            font-weight: normal;
+            margin-top: 60px;
+            margin-right: 84%;
+            padding: 12px 30px;
+            background-color: $blue-2;
+            color: $white;
+            white-space:nowrap;
         }
     }
 
-    .icons{
+    .description{
         flex: 1 75%;
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
         padding: 78px;
 
-        .icon{
-            margin: 10px;
+        p{
+            width: 50%;
         }
     }
 }

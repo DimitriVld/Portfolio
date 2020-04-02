@@ -1,31 +1,25 @@
 import React from 'react';
-import staticSkills from "../../constants/staticSkills";
 
 class VisionSection extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            skills: staticSkills(),
         }
     }
 
     render(){
-        const skill = this.state.skills.map((skill, index) => {
-            return(
-                <img key={index} className="icon" src={skill.icon} alt="icon"/>
-            )
-        })
         return (
             <div className={'vision-section'}>
                 <div className="bg"></div>
-                <div className='description'>
+                <div className='title'>
                     <h3><hr></hr>Our techno</h3>
-                    <p>We gather a panel of techno to succeed at best all of our projects</p>
+                    <img className="icon" src="./images/devices_other-2.svg" alt="icon" />
+                    <p>Design cross device</p>
                 </div>
 
-                <div className='icons'>
-                    {skill}
+                <div className='description'>
+                    <p>Curious and passionate about new technologies and technical issues, we would make a large network of talented people to create and build high quality digital solutions to meet your needs. Do not hesitate to challenge us, we will love to accompany you!</p>
                 </div>
             </div>
         )
