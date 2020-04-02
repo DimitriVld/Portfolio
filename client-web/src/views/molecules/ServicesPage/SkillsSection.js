@@ -1,7 +1,7 @@
 import React from 'react';
 import staticSkills from "../../constants/staticSkills";
 
-class JobsSection extends React.Component {
+class SkillsSection extends React.Component {
 
     constructor(props) {
         super(props);
@@ -17,7 +17,7 @@ class JobsSection extends React.Component {
             )
         })
         return (
-            <div className={'jobs-section'}>
+            <div className={'skills-section'}>
                 <div className="bg"></div>
                 <div className='description'>
                     <h3><hr></hr>Our techno</h3>
@@ -32,4 +32,4 @@ class JobsSection extends React.Component {
     }
 }
 
-export default JobsSection;
+export default SkillsSection;

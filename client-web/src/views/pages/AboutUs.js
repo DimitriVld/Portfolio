@@ -1,6 +1,7 @@
 import React from 'react';
 import WelcomeSection from "../molecules/HomePage/WelcomeSection";
 import CultureSection from "../molecules/AboutPage/CultureSection";
+import VisionSection from "../molecules/AboutPage/VisionSection";
 import ContactSection from "../molecules/AboutPage/ContactSection";
 
 class AboutUsPage extends React.Component{
@@ -14,6 +15,7 @@ class AboutUsPage extends React.Component{
                 aboutUs={true}
                 />
                 <CultureSection />
+                <VisionSection />
                 <ContactSection />
             </div>
         )
