@@ -10,6 +10,18 @@
 
     &.services{
         background-color: $white;
+
+        *{
+            color: $black-4;
+        }
+    }
+
+    &.about-us{
+        background-color: $white;
+
+        *{
+            color: $black-4;
+        }
     }
 
     .bg-logo{

@@ -8,7 +8,11 @@ class AboutUsPage extends React.Component{
     render(){
         return (
             <div className={'about-us-page'}>
-                <WelcomeSection />
+                <WelcomeSection
+                title='Ad agency'
+                subTitle={'Know everything about us'}
+                aboutUs={true}
+                />
                 <CultureSection />
                 <ContactSection />
             </div>
