@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61289513-05ab-4cda-8c48-8d013e90c004" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-web/node_modules/@babel/core/node_modules/.bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-web/node_modules/@babel/helper-compilation-targets/node_modules/.bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-web/node_modules/@babel/plugin-transform-runtime/node_modules/.bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-web/node_modules/@babel/preset-env/node_modules/.bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-web/node_modules/react-dev-utils/node_modules/.bin/json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-web/node_modules/react-dev-utils/node_modules/.bin/node-which" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-web/node_modules/resolve-url-loader/node_modules/.bin/json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-web/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-web/src/styles/atoms/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client-web/src/styles/atoms/menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-web/src/views/atoms/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-web/src/views/atoms/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-web/src/views/atoms/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-web/src/views/atoms/Menu.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mtOH5aAiwSDrPCD4IjKbPFSlxs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61289513-05ab-4cda-8c48-8d013e90c004" name="Default Changelist" comment="" />
+      <created>1610309334408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610309334408</updated>
+      <workItem from="1610309340547" duration="226000" />
+      <workItem from="1610309634818" duration="7470000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
